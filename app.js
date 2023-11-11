@@ -3,7 +3,11 @@ const module2 = require('./module2');
 const module3 = require('./module3');
 const module4 = require('./module4');
 
-module1.greet("Rizki Ramadan");
-module2.calculate(6, 12);
-module3.sayHello("Nanda");
-module4.double(128);
+
+const name = "kitoy";
+const hobby = "renang";
+
+console.log(module1.sayHello(name));
+console.log(module2.sayHi(name));
+console.log(module3.sayHobby(hobby));
+console.log(module4.sayNothing());
